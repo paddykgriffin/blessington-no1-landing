@@ -13,7 +13,7 @@ if (process.argv.length < 3) {
 const projectName = process.argv[2];
 const currentPath = process.cwd();
 const projectPath = path.join(currentPath, projectName);
-const GIT_REPO = 'https://github.com/choisohyun/react-vite-ts-boilerplate.git';
+const GIT_REPO = 'https://github.com/paddykgriffin/blessington-no1-landing.git';
 
 if (projectName !== '.') {
   try {
