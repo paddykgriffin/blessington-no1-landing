@@ -3,6 +3,7 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
+
   --color-background: hsl(var(--background));
   --color-foreground: hsl(var(--foreground));
 
@@ -45,6 +46,15 @@
   --breakpoint-3xl: 1720px;
   --breakpoint-4xl: 1920px;
   --breakpoint-5xl: 2560px;
+
+  /* font override */
+  --font-*: initial;
+  --font-serif: "Quicksand", "serif";
+
+  --text-*: initial;
+  --text-4xl: 55px;
+  --text-3xl: 35px;
+  --text-lg: 24px;
 }
 
 /*
@@ -73,9 +83,9 @@
         --card-foreground: 0 0% 3.9%;
         --popover: 0 0% 100%;
         --popover-foreground: 0 0% 3.9%;
-        --primary: 240, 33%, 30%;
+        --primary: 270, 15%, 51%;
         --primary-foreground: 0 0% 98%;
-        --secondary: 240, 33%, 16%;
+        --secondary: 269, 18%, 41%;
         --secondary-foreground: 0 0% 9%;
         --muted: 0 0% 96.1%;
         --muted-foreground: 0 0% 45.1%;
