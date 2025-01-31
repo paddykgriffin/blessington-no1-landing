@@ -4,15 +4,17 @@ import { Typography } from '@/components/common/Typography/Typography';
 import { MdEmail, MdPhone } from 'react-icons/md';
 import { Button } from '@/components/common/Button/Button';
 
+import logo from '@/assets/logo.png';
+
 const Home = () => {
   return (
     <Layout pageTitle="Home">
       <Container maxWidth="xl">
         <Typography variant={'h1'} className="text-white font-medium tracking-wide text-wrap  text-[28px] md:text-4xl">
-          Blessington No.1 School
+          Welcome to Blessington No.1 School
         </Typography>
 
-        <img src="/src/assets/logo.png" alt="" className="mx-auto my-6" />
+        <img src={logo} alt="" className="mx-auto my-6" />
 
         <Typography variant={'h2'} className="text-white font-medium mb-0 text-wrap text-[24px] md:text-3xl">
           New Website Coming Soon If you have any queries see below
